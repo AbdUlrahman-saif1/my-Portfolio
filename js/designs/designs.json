@@ -1,0 +1,119 @@
+[
+  {
+    "type": "branding",
+    "isCampaign": true,
+    "company": "Coralpatra",
+    "img": "img/designs/Branding/Coralpatra/cover.webp",
+    "title": "Coralpatra Branding",
+    "alt": "Coralpatra Branding",
+    "campaignImages": [
+      "img/designs/Branding/Coralpatra/1.jpg",
+      "img/designs/Branding/Coralpatra/2.jpg",
+      "img/designs/Branding/Coralpatra/3.jpg",
+      "img/designs/Branding/Coralpatra/5.jpg",
+      "img/designs/Branding/Coralpatra/6.jpg",
+      "img/designs/Branding/Coralpatra/cover.webp"
+    ]
+  },
+  {
+    "type": "branding",
+    "isCampaign": true,
+    "company": "JADE",
+    "img": "img/designs/Branding/JADE/cover.webp",
+    "title": "JADE Branding",
+    "alt": "JADE Branding",
+    "campaignImages": [
+      "img/designs/Branding/JADE/00 copy.jpg",
+      "img/designs/Branding/JADE/جاد 2.jpg",
+      "img/designs/Branding/JADE/الموكب.jpg",
+      "img/designs/Branding/JADE/المنيو وش.jpg",
+      "img/designs/Branding/JADE/المنيو ضهر.jpg",
+      "img/designs/Branding/JADE/خصم 20.jpg"
+    ]
+  },
+  {
+    "type": "social",
+    "isCampaign": true,
+    "company": "Life makers",
+    "img": "img/designs/Social/Project-1 صناع/Eladahi camping/cover.webp",
+    "title": "Eladahi camping",
+    "alt": "Eladahi camping",
+    "campaignImages": [
+      "img/designs/Social/Project-1 صناع/Eladahi camping/خليك ف المضمون.png",
+      "img/designs/Social/Project-1 صناع/Eladahi camping/فودافون كاش.jpg",
+      "img/designs/Social/Project-1 صناع/Eladahi camping/انستا باي.png",
+      "img/designs/Social/Project-1 صناع/Eladahi camping/المضمون.png",
+      "img/designs/Social/Project-1 صناع/Eladahi camping/نخيل 1.png",
+      "img/designs/Social/Project-1 صناع/Eladahi camping/9 ايام.png"
+    ]
+  },
+  {
+    "type": "social",
+    "isCampaign": true,
+    "company": "Life makers",
+    "img": "img/designs/Social/Project-1 صناع/wead Muwsol Camping/cover.webp",
+    "title": "Wead Muwsol campaign",
+    "alt": "Wead Muwsol campaign",
+    "campaignImages": [
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/3.png",
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/4.png",
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/7.png",
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/15.png",
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/12.png",
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/سهم اللحوم.jpg",
+      "img/designs/Social/Project-1 صناع/wead Muwsol Camping/1.png"
+    ]
+  },
+  {
+    "type": "social",
+    "isCampaign": true,
+    "company": "Mazny Agency",
+    "img": "img/designs/Social/Mazny Agency/cover.webp",
+    "title": "Mazny Agency",
+    "alt": "Mazny Agency",
+    "campaignImages": [
+      "img/designs/Social/Mazny Agency/اسود.png",
+      "img/designs/Social/Mazny Agency/الاول بردو.png",
+      "img/designs/Social/Mazny Agency/البعبع.png",
+      "img/designs/Social/Mazny Agency/التاني.png",
+      "img/designs/Social/Mazny Agency/العيد - كريلس.png",
+      "img/designs/Social/Mazny Agency/العيد .png",
+      "img/designs/Social/Mazny Agency/العيد 2.png",
+      "img/designs/Social/Mazny Agency/معاد الكشف.png",
+      "img/designs/Social/Mazny Agency/الخصم 3.png"
+    ]
+  },
+  {
+    "type": "social",
+    "isCampaign": true,
+    "company": "MT Academy",
+    "img": "img/designs/Social/MTA Academy/cover.webp",
+    "title": "MT Academy",
+    "alt": "MT Academy",
+    "campaignImages": [
+      "img/designs/Social/MTA Academy/1.jpg",
+      "img/designs/Social/MTA Academy/85.jpg",
+      "img/designs/Social/MTA Academy/9.jpg",
+      "img/designs/Social/MTA Academy/32.jpg",
+      "img/designs/Social/MTA Academy/434.jpg",
+      "img/designs/Social/MTA Academy/ad 12.jpg",
+      "img/designs/Social/MTA Academy/feedback 1.jpg",
+      "img/designs/Social/MTA Academy/O.F copy.jpg"
+    ]
+  },
+  {
+    "type": "teachers",
+    "isCampaign": true,
+    "img": "img/designs/Teachers_ designs/cover.webp",
+    "title": "MR/ Khalid",
+    "alt": "MR/ Khalid",
+    "campaignImages": [
+      "img/designs/Teachers_ designs/1 copy.jpg",
+      "img/designs/Teachers_ designs/2.jpg",
+      "img/designs/Teachers_ designs/3.jpg",
+      "img/designs/Teachers_ designs/4.jpg",
+      "img/designs/Teachers_ designs/5.jpg",
+      "img/designs/Teachers_ designs/6.jpg"
+    ]
+  }
+]

@@ -1,0 +1,260 @@
+@import "../modules/lightbox.css";
+@import "../modules/preLoader.css";
+
+/* Designs Page Styles */
+
+@media (hover: none) and (pointer: coarse) {
+  .custom-list {
+    gap: 30px;
+  }
+
+  .custom-item {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    -webkit-transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    -moz-transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    -ms-transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    -o-transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+  }
+
+  .custom-item a {
+    box-shadow: 0 15px 35px -15px rgba(var(--h1-color), 0.2),
+      0 5px 20px rgba(var(--h1-color), 0.15);
+    border: 1px solid rgba(var(--h1-color), 0.08);
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+  }
+
+  .custom-item img {
+    filter: contrast(1.05) brightness(1.02);
+    -webkit-filter: contrast(1.05) brightness(1.02);
+    transform: scale(1.01);
+    transition: transform 0.5s ease-out !important;
+  }
+
+  .custom-item .text {
+    animation: none !important;
+    -webkit-animation: none !important;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    backdrop-filter: blur(8px);
+    background: rgba(var(--bg2-color), 0.7);
+    box-shadow: 0 -3px 20px rgba(var(--h1-color), 0.1);
+    border-top: 1px solid rgba(var(--h1-color), 0.08);
+    overflow: hidden;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+  }
+
+  .custom-item .text h3 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: rgb(var(--h1-color));
+    margin-bottom: 10px;
+  }
+
+  .custom-item:active {
+    transform: scale(0.98) !important;
+    -webkit-transform: scale(0.98) !important;
+    -moz-transform: scale(0.98) !important;
+    -ms-transform: scale(0.98) !important;
+    -o-transform: scale(0.98) !important;
+  }
+
+  .custom-item:active img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+
+  /* Override animations for touch */
+  .custom-item:hover a,
+  .custom-item:hover .text {
+    animation: none !important;
+    -webkit-animation: none !important;
+    overflow: hidden;
+  }
+  .custom-item:hover .text {
+    top: auto;
+  }
+
+  /* Add subtle shine effect */
+  .custom-item .text::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 1500%;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    animation: shine 6s infinite linear;
+    z-index: 2;
+    pointer-events: none;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+  }
+
+  @keyframes shine {
+    0% {
+      transform: rotate(30deg) translateX(-100%);
+      -webkit-transform: rotate(30deg) translateX(-100%);
+      -moz-transform: rotate(30deg) translateX(-100%);
+      -ms-transform: rotate(30deg) translateX(-100%);
+      -o-transform: rotate(30deg) translateX(-100%);
+    }
+    100% {
+      transform: rotate(30deg) translateX(100%);
+      -webkit-transform: rotate(30deg) translateX(100%);
+      -moz-transform: rotate(30deg) translateX(100%);
+      -ms-transform: rotate(30deg) translateX(100%);
+      -o-transform: rotate(30deg) translateX(100%);
+    }
+  }
+}
+
+/* end-card */
+
+
+
+.design-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+/* Main Showcase Section */
+.designs-showcase {
+  padding: 120px 0;
+  min-height: calc(100vh - 56px);
+}
+
+/* Designs List Grid */
+.designs-list {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 80px 25px;
+  perspective: 1000px;
+  margin-top: 40px;
+  opacity: 0;
+}
+
+/* Design Item Styles */
+
+.design-item.hidden {
+  display: none;
+}
+/* Campaign indicator */
+.campaign-indicator {
+  background-color: rgb(var(--h1-color));
+  right: 15px;
+  color: white;
+  font-family: var(--Poppinsin-font);
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.campaign-indicator.company {
+  top: 15px;
+}
+.campaign-indicator.isCampaign {
+  top: 42px;
+}
+
+/* Campaign Controls */
+.campaign-controls {
+  margin-top: 20px;
+  align-items: center;
+  display: none;
+  color: rgb(var(--p-color));
+}
+
+.campaign-controls.active {
+  display: flex;
+}
+
+.nav-btn {
+  color: rgb(var(--p-color));
+  background: rgb(var(--bg-color));
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--standard-shadow);
+  transition: all var(--trans-time);
+}
+
+.nav-btn:hover {
+  background: rgb(var(--h1-color));
+  color: rgb(var(--bg-color));
+}
+
+.slide-indicator {
+  font-size: 14px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .designs-list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .designs-showcase {
+    padding-top: 120px;
+  }
+
+  .designs-filters {
+    justify-content: center;
+  }
+
+  .lightbox-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .designs-list {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .filter-btn {
+    font-size: 12px;
+    padding: 6px 15px;
+  }
+}

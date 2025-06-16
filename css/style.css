@@ -1,0 +1,37 @@
+/* Import Module Stylesheets */
+@import "./fonts.css";
+@import "modules/right-lift-navs.css";
+@import "modules/base.css";
+@import "modules/components.css";
+@import "modules/navigation.css";
+@import "modules/footer.css";
+@import "modules/cards.css";
+/* Root Variables */
+:root {
+  --bg-color: 250, 250, 252; /* #fafafc - softer white */
+  --bg2-color: 240, 240, 245; /* #f0f0f5 - light lavender gray */
+  --h1-color: 67, 97, 238; /* #4361ee - vibrant blue */
+  --p-color: 51, 65, 85; /* #334155 - slate */
+  --accent-light: 236, 242, 255; /* #ECF2FF - very light blue */
+  --accent-dark: 37, 54, 141; /* #25368D - deep blue */
+  --Roboto-font: "Roboto", sans-serif;
+  --Poppinsin-font: "Poppins", sans-serif;
+  --Dancing-script: "Dancing Script", cursive;
+  --trans-time: 0.3s;
+  --standard-shadow: 0 10px 30px -10px rgba(var(--h1-color), 0.15),
+    0 5px 15px -5px rgba(var(--h1-color), 0.1);
+  --hover-shadow: 0 14px 40px -10px rgba(var(--h1-color), 0.2),
+    0 10px 20px -5px rgba(var(--h1-color), 0.15);
+  --border-radius: 12px;
+  --text-shadow: 0 2px 5px rgba(var(--h1-color), 0.6);
+  --section-spacing: 100px;
+  --content-spacing: 60px;
+  --element-spacing: 25px;
+}
+
+.dark-mode {
+  --bg-color: 23, 23, 33; /* #171721 - deep blue-black */
+  --bg2-color: 30, 30, 46; /* #1e1e2e - rich dark purple */
+  --h1-color: 129, 161, 255; /* #81A1FF - soft blue */
+  --p-color: 226, 232, 240; /* #e2e8f0 - soft white */
+}
